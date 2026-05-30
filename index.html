@@ -1,1 +1,341 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Comercial Maluli LTDA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f7f7f7;
+color:#333;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+/* HEADER */
+header{
+position:fixed;
+top:0;
+width:100%;
+background:#0d1f4f;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+z-index:999;
+box-shadow:0 3px 15px rgba(0,0,0,.2);
+}
+
+.logo{
+color:white;
+font-size:28px;
+font-weight:800;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* HERO */
+.hero{
+height:100vh;
+background:linear-gradient(rgba(13,31,79,.85),rgba(13,31,79,.85)),
+url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+padding:0 8%;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+max-width:600px;
+}
+
+.btn{
+background:#f5b301;
+color:#000;
+padding:15px 30px;
+border-radius:50px;
+text-decoration:none;
+font-weight:700;
+display:inline-block;
+}
+
+/* SECTIONS */
+.section{
+padding:90px 8%;
+}
+
+.title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.title h2{
+font-size:40px;
+color:#0d1f4f;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+/* CONTACT */
+.contact{
+background:#0d1f4f;
+color:white;
+}
+
+.contact .card a{
+color:#0d1f4f;
+font-weight:600;
+text-decoration:none;
+}
+
+.contact .card{
+color:#333;
+}
+
+/* FOOTER */
+footer{
+background:#08112b;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:65px;
+height:65px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+color:white;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+.hero h1{font-size:40px;}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">MALULI</div>
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#empresa">Empresa</a>
+<a href="#contato">Contato</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Comércio Atacadista de Armarinhos</h1>
+
+<p>
+Mais de 40 anos atendendo lojistas e revendedores com variedade, qualidade e confiança.
+</p>
+
+<a href="#contato" class="btn">Fale Conosco</a>
+
+</div>
+
+</section>
+
+<section class="section" id="sobre">
+
+<div class="title">
+<h2>Sobre a Empresa</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Tradição</h3>
+<p>Fundada em 14/10/1982, com mais de 40 anos de atuação no mercado.</p>
+</div>
+
+<div class="card">
+<h3>Atuação</h3>
+<p>Atacado de artigos de armarinho em todo o Brasil.</p>
+</div>
+
+<div class="card">
+<h3>Situação</h3>
+<p>Empresa ativa e consolidada no setor.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="empresa">
+
+<div class="title">
+<h2>Dados Empresariais</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+<h3>Razão Social</h3>
+<p>Comercial Maluli LTDA</p>
+</div>
+
+<div class="card">
+<h3>CNPJ</h3>
+<p>51.669.307/0001-10</p>
+</div>
+
+<div class="card">
+<h3>Capital Social</h3>
+<p>R$ 771.000,00</p>
+</div>
+
+<div class="card">
+<h3>Inscrição Estadual SP</h3>
+<p>110.741.166.117</p>
+</div>
+
+<div class="card">
+<h3>Sócios</h3>
+<p>Fabio Issa Maalouli<br>Marcio Issa Maalouli<br>Sergio Issa Maalouli</p>
+</div>
+
+<div class="card">
+<h3>Natureza Jurídica</h3>
+<p>Sociedade Empresária Limitada</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section contact" id="contato">
+
+<div class="title">
+<h2 style="color:white;">Contato</h2>
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>📍 Endereço</h3>
+
+<p>
+Rua Vinte e Cinco de Março, 717/719<br>
+Centro - São Paulo/SP<br>
+CEP: 01021-200
+</p>
+
+<br>
+
+<a class="btn" target="_blank"
+href="https://maps.google.com/?q=Rua+25+de+Marco+717+Sao+Paulo">
+Ver no Mapa
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>📞 Telefones</h3>
+
+<p><a href="tel:+551133269953">(11) 3326-9953</a></p>
+<p><a href="tel:+551133139084">(11) 3313-9084</a></p>
+
+<br>
+
+<a class="btn" href="https://wa.me/551133269953" target="_blank">
+WhatsApp
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>✉️ E-mail</h3>
+
+<p>
+<a href="mailto:adm@comercialmaluli.com.br">
+adm@comercialmaluli.com.br
+</a>
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+<iframe
+width="100%"
+height="400"
+style="border:0"
+loading="lazy"
+src="https://maps.google.com/maps?q=Rua%2025%20de%20Marco%20717%20Sao%20Paulo&output=embed">
+</iframe>
+</section>
+
+<footer>
+<p>© 2026 Comercial Maluli LTDA</p>
+<p>CNPJ 51.669.307/0001-10</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/551133269953" target="_blank">💬</a>
+
+</body>
+</html>
